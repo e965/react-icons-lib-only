@@ -28,7 +28,8 @@
     },
     "homepage": "https://github.com/e965/react-icons-lib-only#readme",
     "scripts": {
-        "start": "node get-files.js"
+        "get-files": "node get-files.js",
+        "prepublishOnly": "npm run get-files"
     },
     "dependencies": {
         "react": ">=16.3.0"
