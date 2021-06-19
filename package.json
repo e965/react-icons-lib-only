@@ -1,0 +1,40 @@
+{
+    "name": "react-icons-lib-only",
+    "description": "Because not everyone needs to carry ~35 megabytes of icons to their project",
+    "version": "4.2.0-a1",
+    "type": "module",
+    "main": "lib",
+    "types": "./lib/esm/index.d.ts",
+    "author": "Goran Gajic",
+    "contributors": [
+        "kamijin_fanta <kamijin@live.jp>",
+        "Dmitry <dmitry@cojam.ru> (https://e965.ru)"
+    ],
+    "sideEffects": false,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/e965/react-icons-lib-only.git"
+    },
+    "keywords": [
+        "react-icons"
+    ],
+    "files": [
+        "lib/",
+        "index.*"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/e965/react-icons-lib-only/issues"
+    },
+    "homepage": "https://github.com/e965/react-icons-lib-only#readme",
+    "scripts": {
+        "start": "node get-files.js"
+    },
+    "dependencies": {
+        "react": ">=16.3.0"
+    },
+    "devDependencies": {
+        "fs-extra": "10.0.0",
+        "react-icons": "4.2.0"
+    }
+}
