@@ -1,7 +1,7 @@
 {
     "name": "react-icons-lib-only",
     "description": "Because not everyone needs to carry ~35 megabytes of icons to their project",
-    "version": "4.2.0-a1",
+    "version": "4.2.0",
     "type": "module",
     "main": "lib",
     "types": "./lib/esm/index.d.ts",
